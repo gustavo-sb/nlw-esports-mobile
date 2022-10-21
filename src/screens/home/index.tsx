@@ -4,11 +4,11 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import logoImg from "../../assets/logo-nlw-esports.png";
 
-import { Heading } from "../../components/heading";
-import { GameCard, GameCardProps } from "../../components/gameCard";
+import { Heading } from "../../components/Heading";
+import { GameCard, GameCardProps } from "../../components/GameCard";
 
 import { styles } from "./styles";
-import { Background } from "../../components/background";
+import { Background } from "../../components/Background";
 import { useNavigation } from "@react-navigation/native";
 
 export function Home() {

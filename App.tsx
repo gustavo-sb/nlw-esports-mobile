@@ -7,8 +7,8 @@ import {
   Inter_900Black
 } from '@expo-google-fonts/inter'
 
-import { Background } from './src/components/background/index';
-import { Loading } from './src/components/loading';
+import { Background } from './src/components/Background';
+import { Loading } from './src/components/Loading';
 import { Routes } from './src/routes';
 
 export default function App() {
